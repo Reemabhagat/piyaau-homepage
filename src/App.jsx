@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./Pages/Home";
 import Footer from "./components/Footer";
-import Contactus from "./Pages/Contact";
+import Contact from "./Pages/Contact";
 function App() {
   return (
     <Router>
@@ -11,7 +11,7 @@ function App() {
         <main className="content">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Contactus" element={<Contactus />} />
+            <Route path="/contactus" element={<Contact />} />
           </Routes>
         </main>
         <Footer />  
