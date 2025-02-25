@@ -5,7 +5,7 @@ import rightcan from "../assets/img/rightcan.webp";
 import canBg from "../assets/img/can-bg.webp";
 import canCircle from "../assets/img/can-circle.svg";
 import canDrop from "../assets/img/can-drop.webp";
-import Animate from "./animate";
+import Animate from "../components/Animate";
 
 function Himalaya() {
     return (
