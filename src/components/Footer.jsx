@@ -49,7 +49,9 @@ function Footer() {
                         <ul className="mt-2 space-y-1">
                             <li><a href="#" className="footer-link">Terms & Conditions</a></li>
                             <li><a href="#" className="footer-link">Privacy policy</a></li>
-                            <li><a href="/Contactus" target="_blank" className="footer-link">Contact Us</a></li>
+                            <li>
+                                <Link to="/contactus" className="footer-link">Contact Us</Link>
+                            </li>
 
 
                         </ul>
