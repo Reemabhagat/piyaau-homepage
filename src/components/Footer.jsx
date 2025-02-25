@@ -50,7 +50,7 @@ function Footer() {
                             <li><a href="#" className="footer-link">Terms & Conditions</a></li>
                             <li><a href="#" className="footer-link">Privacy policy</a></li>
                             <li>
-                                <Link to="/contactus" target="_blank" className="footer-link">Contact Us</Link>
+                                <Link to="/contactus" className="footer-link">Contact Us</Link>
                             </li>
 
 
