@@ -6,16 +6,17 @@ import Big from "../components/Big";
 import sampleVideo from "../assets/img/can-call.mp4";
 import sampleVideo2 from "../assets/img/Lowblend.mp4";
 import FAQ from "../components/Faq";
-
+import CanRoll from "../components/CanRoll";
 
 function Home() {
   return (
     <div className="home-container">
       <Hero />
-      <Card />
+      <CanRoll />
       <Himalya />
       <Big videoSrc={sampleVideo} videoSrc2={sampleVideo2} />
       <FAQ />
+      
     </div>
   );
 }

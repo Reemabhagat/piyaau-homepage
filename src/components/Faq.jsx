@@ -47,17 +47,17 @@ const FAQ = () => {
 
 
             {/* New section */}
-            <div className="w-full  text-black text-center py-16 mt-16">
-                <h2 className="text-6xl font-bold mb-4">Become a Water warrior</h2>
-                <p className="text-2xl max-w-[950px] mx-auto mb-6  text-center">
-
+            <div className="w-full text-black text-center py-10 sm:py-5 md:py-10 mt-10 sm:mt-12 md:mt-16 px-4">
+                <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-8">
+                    Become a Water Warrior
+                </h2>
+                <p className="text-base sm:text-lg md:text-xl lg:text-2xl max-w-[950px] mx-auto mb-6 text-center p-small">
                     Every time you purchase a can of Piyaau, you're also supporting our community efforts.
                     Join our movement and become a water warrior with every refreshing sip of Piyaau!
                 </p>
-                <button className="button-nav text-white transition"> Join The Movement</button>
-
-
+                <button className="button-nav text-white transition">Join The Movement</button>
             </div>
+
         </div>
     );
 };

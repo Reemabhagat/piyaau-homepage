@@ -6,10 +6,12 @@ import twitTer from "../assets/img/Twitter.svg";
 import linkedIn from "../assets/img/LinkedIn.svg";
 import playStoreImg from "../assets/img/Play-store.svg";
 import appStoreImg from "../assets/img/App-store.svg";
+import { Link } from "react-router-dom";
+
 
 function Footer() {
     return (
-        <footer className=" text-black py-8">
+        <footer className=" text-black">
             <div className="container mx-auto px-6">
                 {/* Footer */}
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-center md:text-left">
@@ -48,6 +50,8 @@ function Footer() {
                             <li><a href="#" className="footer-link">Terms & Conditions</a></li>
                             <li><a href="#" className="footer-link">Privacy policy</a></li>
                             <li><a href="/Contactus" target="_blank" className="footer-link">Contact Us</a></li>
+
+
                         </ul>
                     </div>
 

@@ -8,7 +8,7 @@ function App() {
     <Router>
       <div className="app-container">
         <Navbar />  
-        <main className="content my-20 lg:my-0">
+        <main className="content">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Contactus" element={<Contactus />} />
